@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - Gemfile
+    - test/*
+    - Rakefile
+    - log_formatter.gemspec
+    - bin/*
