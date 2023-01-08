@@ -1,7 +1,13 @@
 AllCops:
   Exclude:
     - Gemfile
-    - test/*
+    - spec/**/**
     - Rakefile
+    - rakelib/**/**
     - log_formatter.gemspec
     - bin/*
+
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
