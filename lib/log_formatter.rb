@@ -2,7 +2,7 @@ require 'log_formatter/application_logger'
 
 module LogFormatter
   # @param [Logger] logger
-  def initialize_logger!(logger)
+  def initialize_formatter!(logger)
     ApplicationLogger.instance = logger
   end
 
