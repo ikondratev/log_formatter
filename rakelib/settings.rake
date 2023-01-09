@@ -1,0 +1,1 @@
+task default: %i[linters:rubocop tests:spec]

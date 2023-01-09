@@ -22,4 +22,6 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split($RS)
   s.add_dependency 'rubocop', '~> 1.26'
   s.add_dependency 'rubocop-rake'
+  s.add_dependency 'rspec', '~> 3.9.0'
+  s.add_dependency 'debase'
 end
