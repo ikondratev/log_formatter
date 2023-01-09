@@ -1,7 +1,7 @@
 module LogFormatter
   class ApplicationLogger
     class << self
-      attr_reader :instance
+      attr_accessor :instance
     end
   end
 end

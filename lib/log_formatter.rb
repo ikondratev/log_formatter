@@ -1,6 +1,11 @@
 require 'log_formatter/application_logger'
 
 module LogFormatter
+  # @param [Logger] logger
+  def initialize_logger!(logger)
+    ApplicationLogger.instance = logger
+  end
+
   # @param [String] description
   # @param [Hash] opts
   def l(description = nil, **opts)
